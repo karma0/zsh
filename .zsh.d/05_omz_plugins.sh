@@ -16,6 +16,7 @@ plugins=( \
   mercurial \
   nyan \
   pip \
+  pyenv \
   python \
   screen \
   sprunge \
