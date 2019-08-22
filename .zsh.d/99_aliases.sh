@@ -1,8 +1,14 @@
 # ls
-alias l="ls -Ah --color=auto"
+alias l="ls -AFCh --color=auto"
 alias la="ls -ah --color=auto"
-alias ll="ls -lAh --color=auto"
-alias lt="ls -lAhrt --color=auto"
+alias ll="ls -lAFh --color=auto"
+alias lt="ls -lAhFrt --color=auto"
+
+# File mgmt
+alias cp="cp -rv"
+alias mv="mv -v"
+alias mkdir="mkdir -pv"
+alias wget="wget -c"
 
 # Command line head / tail shortcuts 
 alias t='tail -f'
